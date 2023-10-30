@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+.padding5 {
+  padding: 5%;
+}
+span p {
+  text-align: center;
+}
+
+nav {
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 150px;
+}
+
+ul {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
