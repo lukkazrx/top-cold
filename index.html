@@ -13,10 +13,10 @@
     </div>
     <nav>
       <ul>
-        <li>Empresa</li>
-        <li>Produtos</li>
-        <li>Nossa Visao</li>
-        <li>Contato</li>
+        <li><a href="#empresa">Empresa</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#nossa-visao">Nossa Visao</a></li>
+        <li><a href="contato">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -57,17 +57,17 @@
 
     <span><p class="marquee-padrao">TOP COLD REFRIGERAÇÃO INDUSTRIAL</p></span>
 
-    <section class="padding5">
+    <section id="empresa" class="padding5">
       <div>
         <h1>Empresa</h1>
         <h2>O diferencial é a qualidade e a agilidade</h2>
-        <h3>
+        <h3 class="diferencial">
             Inovar, criar, renovar os serviços e equipamentos
             oferecidos, considerando sempre a melhor solução
             de engenharia de refrigeração para cada projeto
             executado.
         </h3>
-        <p>
+        <p class="details">
           A Top Cold está no mercado desde 2004, fornecendo equipamentos para refrigeração industrial 
           em diversos segmentos. Sempre buscando ser referência no mercado, aliando segurança e qualidade. 
           Situada em Sapucaia do Sul/RS produzimos e damos todo suporte técnico para frigoríficos, 
@@ -79,7 +79,7 @@
 
     <span><p class="marquee-padrao">TOP COLD REFRIGERAÇÃO INDUSTRIAL</p></span>
 
-    <section class="padding5">
+    <section id="produtos" class="padding5">
       <h1>Produtos</h1>
       <p>Os melhores produtos pelos melhores preços do mercado!</p>
       <div class="card-container">
@@ -92,10 +92,10 @@
 
     <span><p class="marquee-vision">TOP COLD REFRIGERAÇÃO INDUSTRIAL</p></span>
 
-    <section class="vision padding5">
+    <section id="nossa-visao" class="vision padding5">
       <h1>Nossa visão</h1>
       <div class="qualy">
-        <p>
+        <p class="paragraph-qualy">
           Ser uma empresa de referência na área de refrigeração
           industrial. Nossas diretrizes são: a velocidade no atendimento,
           o respeito a nossos clientes e fornecedores, respeito ao meio
@@ -103,14 +103,22 @@
           princípios de ética profissional.
         </p>
         <div class="qualidades">
-          <h3>Integridade</h3>
-          <p>Agir com ética e transparência.</p>
-          <h3>Qualiadade</h3>
-          <p>Manter altos padrões em produtos/serviços..</p>
-          <h3>Inovação</h3>
-          <p>Constantemente buscar melhorias.</p>
-          <h3>Atendimento ao Cliente</h3>
-          <p>Satisfazer as necessidades dos clientes.</p>
+          <div class="qualidades-g">
+            <h3>Integridade</h3>
+            <p>Agir com ética e transparência.</p>
+          </div class="qualidades-g">
+          <div>
+            <h3>Qualiadade</h3>
+            <p>Manter altos padrões em produtos e serviços.</p>
+          </div>
+          <div class="qualidades-g">
+            <h3>Inovação</h3>
+            <p>Constantemente buscando melhorias.</p>
+          </div>
+          <div class="qualidades-g">
+            <h3>Atendimento ao Cliente</h3>
+            <p>Satisfazer as necessidades dos clientes.</p>
+          </div>
         </div>
       </div>
       <img src="./assets/vision.png" alt="">
@@ -118,15 +126,15 @@
 
     <span><p class="marquee-vision">TOP COLD REFRIGERAÇÃO INDUSTRIAL</p></span>
 
-    <section class="padding5">
+    <section id="contato" class="contact">
       <div>
         <h1>Tem dúvidas? Entre em contato!</h1>
-        <p>Não hesite em entrar em contato se você tiver qualquer dúvida ou queira realizar um orçamento:</p>
+        <p class="paragraph-contact">Não hesite em entrar em contato se você tiver qualquer dúvida ou queira realizar um orçamento:</p>
         <div class="buttons-contact">
-          <button>E-mail</button>
-          <button>Instagram</button>
-          <button>Whatsapp</button>
-          <button>Facebook</button>
+          <button class="btn-contact">E-mail</button>
+          <button class="btn-contact">Whatsapp</button>
+          <button class="btn-contact">Instagram</button>
+          <button class="btn-contact">Facebook</button>
         </div>
       </div>
       <img src="./assets/contact.png" alt="">
@@ -141,7 +149,9 @@
       </p>
       <br>
       <p><strong>Telefones</strong></p>
-      <p>(51)3451-5156 (51)3451-5429
+      <p>
+         (51)3451-5156 <br>
+         (51)3451-5429
       </p>
       <br>
       <p><strong>Whatsapp</strong></p>
