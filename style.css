@@ -20,8 +20,23 @@ h1, h2, h3, h4{
   font-family: var(--font-family-H);
 }
 
+h1 {
+  font-size: 50px;
+}
+
 p, li, button {
    font-family: var(--font-family-P);
+}
+
+
+.btn-1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 4px 12px 4px 12px ;
+  font-size: 18px;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #017E84 0%, #004AAD 100%); 
+  border: 0;
 }
 
 span p {
@@ -32,8 +47,15 @@ nav {
   flex-wrap: wrap;
 }
 
+.logo-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
 ul {
   display: flex;
+  justify-content: space-around;
 }
 
 img {
@@ -44,10 +66,18 @@ img {
   padding: 5%;
 }
 
+.marquee-padrao {
+  background-image: linear-gradient(to right, #017E84 0%, #004AAD 100%); 
+  color: #ffffff;
+}
+
 .marquee-vision {
   background-color: var(--marquee-color);
 }
 
+.marquee-padrao, .marquee-vision{
+  padding: 10px 0 10px 0;
+}
 .logo {
   width: 150px;
 }
@@ -62,5 +92,10 @@ img {
 
 .refrigeracao {
   border-left: black solid 3px;
-  padding-left: 5px;
+  padding-left: 6px;
+  margin-bottom: 25px;
+}
+
+.refrigeracao h2 {
+  margin-bottom: 8px;
 }
