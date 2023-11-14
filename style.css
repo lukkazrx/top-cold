@@ -157,7 +157,6 @@ img {
   z-index: 1000;
 }
 
-
 .vision img {
   margin-top: 20px;
 }
@@ -185,13 +184,6 @@ img {
   align-items: center;
 }
 
-.btn-contact:hover {
-  background-image: linear-gradient(to right, #017E84 0%, #004AAD 100%); 
-  color: #ffffff;
-  border: 0;
-
-}
-
 .btn-contact {
   width: 250px;
   padding: 10px 25px 10px 25px;
@@ -201,3 +193,100 @@ img {
   background-color: transparent;
 }
 
+.btn-contact:hover {
+  background-image: linear-gradient(to right, #017E84 0%, #004AAD 100%); 
+  color: #ffffff;
+  border: 0;
+}
+
+@media (min-width: 740px) {
+  .r-header {
+   display: flex;
+   justify-content:space-between;
+   border-bottom: #004AAD 1px solid;
+   padding: 2% 5% 0 5%;
+  }
+  li {
+    margin: 0 10px 0 10px;
+  }
+
+  .f-section {
+    padding-top: 2%;
+    display: flex;
+  }
+
+  .f-section img {
+    width: 50%;
+  }
+
+  .f-section-information {
+    width: 50%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .f-section-information h1 {
+    font-size: 4.5rem;
+  }
+
+  .btn-1 {
+    max-width: 200px;
+    margin-top: 20%;
+  }
+
+  .organizacao {
+    display: flex;
+  }
+  .em-branco {
+    width: 50%;
+  }
+
+  .refrigeracao {
+    width: 50%;
+    padding: 2% 0 2% 2%;
+  }
+
+  .refrigeracao h2 {
+    font-size: 2.5rem;
+  }
+
+  #empresa {
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 750px;
+  }
+
+  .i-empresa {
+    width: 50%;
+  }
+
+  .diferencial {
+    margin-top: 5%;
+  }
+
+  .details {
+    margin-top: 10%;
+  }
+  #empresa-img {
+    width: 50%;
+    margin-right: 3%;
+  }
+
+  .qualy {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .qualidades {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+  }
+  .teste {
+    display: flex;
+  }
+
+}
