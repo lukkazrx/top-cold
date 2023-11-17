@@ -171,11 +171,6 @@ img {
   border-radius: 4%;
 }
 
-.card:hover{
-  transform: scale(1.04);
-  z-index: 1000;
-}
-
 .vision img {
   margin-top: 20px;
 }
