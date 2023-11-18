@@ -183,10 +183,6 @@ img {
   margin: 15px 0 15px 0;
 }
 
-.qualidades-g {
-  margin: 12px 0 12px 0;
-}
-
 .contact {
   padding: 5% 5% 0 5%;
 }
@@ -304,8 +300,11 @@ img {
     margin-right: 3%;
   }
 
-  .qualy {
+  .qualidade-organizacao {
     display: flex;
+  }
+
+  .qualy {
     width: 50%;
     margin-right: 30px;
   }
@@ -313,7 +312,6 @@ img {
   .qualidades {
     display: flex;
     width: 50%;
-    flex-wrap: wrap;
   }
   .teste {
     display: flex;
