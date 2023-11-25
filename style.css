@@ -316,9 +316,6 @@ img {
     display: flex;
     width: 50%;
   }
-  .teste {
-    display: flex;
-  }
 
   .contato {
     display: flex;
@@ -332,7 +329,12 @@ img {
     width: 400px;
   }
 
-  .teste2 {
+  .btn-organization {
     display: flex;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
   }
 }
